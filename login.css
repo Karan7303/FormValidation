@@ -1,0 +1,81 @@
+h2{
+	margin-top: 50px;
+	text-align: center; 
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #4B99AD;
+}
+
+h5{
+	margin-left: 400px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #4B99AD;
+}
+
+label{
+	padding-left: 15px; 
+  padding-top: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+ /**/
+  
+}
+td
+{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #376F7C;
+	 color: #376F7C;
+}
+
+table{
+  padding-top: 20px;
+}
+
+input[type=submit] {
+    border: none;
+    margin-top: 20px;
+    padding: 8px 15px 8px 15px;
+    background: #4B99AD;
+    color: #fff;
+    box-shadow: 1px 1px 4px #BEDBE2;
+    -moz-box-shadow: 1px 1px 4px #BEDBE2;
+    -webkit-box-shadow: 1px 1px 4px #BEDBE2;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px
+    
+}
+
+input[type=submit]:hover{
+
+    background: #79B5C5;
+    color: #fff;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=password],
+textarea{
+	border: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #FFF;
+    color: #376F7C;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+   
+}
+
+p{
+	color: red;
+	font-style: italic;
+	font-size: 10px;
+	text-align: left;
+}

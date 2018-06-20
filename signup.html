@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Signup</title>
+		<script src="signup.js"></script>
+		<link rel="stylesheet" type="text/css" href="login.css">
+	</head>
+	<body>
+		<h2 align="center">Signup</h2>
+		<form id='signup' method="POST" action="" onsubmit ="formValidation(); return false;">
+			
+				<div style="padding-left: 430px; padding-top: 50px">
+					<div style="background-color: lightblue; border: solid #4B99AD; width: 450px; height: 210px">
+						<table >
+							<tr>
+								<td ><label for="name">Name </label></td>
+								<td colspan="2"><input type="text" name="name" placeholder="Your Name" id="uname"  />	</td>
+								<td><label id="nameerror"> </label></td>
+							</tr>
+							
+							<tr>
+								<td ><label for="user">Email </label></td>
+								<td colspan="2"><input type="text" name="userid" placeholder="Your Email" id="email" /></td>
+								<td><label id="emailerror"> </label></td>
+							</tr>
+							<tr>
+								<td ><label for="passid">Password </label></td>
+								<td colspan="2"><input type="password" name="passid" placeholder="Password" id="passid" /></td>
+								<td><label id="passerror"> </label></td>
+							</tr>
+							<tr>
+								<td colspan="3" align="center"><input type="submit" name="submit" value="Signup"  /></td>
+								
+							</tr>				
+					</table>
+			
+			</div>
+			</div>
+		</form>
+		
+	</body>
+</html>
